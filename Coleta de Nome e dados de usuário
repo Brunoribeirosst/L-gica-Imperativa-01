@@ -1,0 +1,47 @@
+Elabore um algoritmo para que o usuário, através da entrada de dados, informe os seus dados pessoais. Alguns desses dados fornecidos pelo usuário precisam ser apresentados na tela quando o algoritmo for executado, são eles:
+ 
+- Nome;
+- Endereço;
+- Cidade;
+- CPF;
+- RG.
+
+Para realizar a atividade, conforme instruído nas aulas devemos primeiro estipular quais serão as entradas, através de variáveis, ficando então:
+
+Var
+nome : caractere
+endereço : caractere
+cidade : caractere
+cpf : inteiro
+rg : inteiro
+
+Inicio
+
+escreva(“Digite seu nome completo:“)
+leia(nome)
+
+escreva(“Agora insira seu endereço atual:”)
+leia(endereço)
+
+escreva(“Continue inserindo a cidade em que reside:”)
+leia(cidade)
+
+escreva(“Fique tranquilo que seus dados estão protegidos de acordo com a LGPD, agora insira seu CPF:”)
+leia(cpf)
+
+escreva(“Para finalizar seu cadastro, insira seu RG:”)
+leia(rg)
+
+escreva(“Parabéns, você está cadastrado em nossa plataforma! confira seus dados!”)
+
+escreva(“O seu nome é: “, nome)
+
+escreva(“Você mora atualmente em: “, endereço)
+
+escreva (“A cidade desse endereço é: “, cidade)
+
+escreva (“O número do seu CPF: “, cpf)
+
+escreva (“E o número do seu RG: “, rg)
+
+fimalgoritmo
