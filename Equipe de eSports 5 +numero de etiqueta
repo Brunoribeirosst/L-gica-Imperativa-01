@@ -1,0 +1,27 @@
+Elabore um algoritmo que permita ao usuário inserir o nome da equipe, e imprime etiquetas para os 5 membros da equipe seguindo o exemplo mostrado acima.
+
+Algoritmo "eSports - IDs"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   :
+// Descrição   : Programa para identificar equipe e 5 participantes de eSports
+// Autor(a)    : Bruno Gabriel Ribeiro
+// Data atual  : 03/09/2023
+
+Var
+nomeequipe:caractere
+contaequipe:inteiro
+
+Inicio
+
+ escreva("Seja bem-vindo ao torneio de eSports 2K23! Por favor, insira o nome da sua equipe:")
+  leia(nomeequipe)
+
+  escreva("Sejam bem-vindos à competição, ", nomeequipe)
+
+  contaequipe <- 1 // Começar a contagem a partir de 1
+  enquanto (contaequipe <= 5) faca
+    escreva(contaequipe, " - ", nomeequipe)
+    contaequipe <- contaequipe + 1
+  fimenquanto
+  
+Fimalgoritmo
