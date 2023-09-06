@@ -1,0 +1,13 @@
+numero_inteiro = 5
+numero_float = 5.7
+texto = "este é um texto"
+booleano = False
+
+print("Este é um tipo")
+print(type(numero_inteiro))
+print("este é um tipo")
+print(type(numero_float))
+print("este é um tipo")
+print(type(texto))
+print("este é um tipo")
+print(type(booleano))
