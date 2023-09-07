@@ -1,0 +1,30 @@
+import sys
+
+qtd_rodas = input("Informe a quantidade de rodas do veículo: ")
+qtd_rodas = int(qtd_rodas)
+
+if qtd_rodas <= 3:
+    print("A categoria da carteira é A")
+    sys.exit()
+
+peso_kg = input("Informe o peso total do veículo: ")
+peso_kg = float(peso_kg)
+
+if qtd_rodas >= 4 and peso_kg > 3500 and peso_kg <= 6000:
+    print("A categoria da carteira é C")
+    sys.exit()
+
+if qtd_rodas > 4 and peso_kg > 6000:
+    print("A categoria da carteira é E")
+    sys.exit()
+
+qtd_pessoas = input("Informe a capacidade máxima de passageiros no veículo: ")
+qtd_pessoas = int(qtd_pessoas)
+
+if qtd_rodas >= 4 and qtd_pessoas > 8:
+    print("A categoria da carteira é D")
+    sys.exit()
+
+if qtd_rodas == 4 and qtd_pessoas <= 8 and peso_kg <= 3500:
+    print("A categoria da carteira é B")
+    sys.exit()
